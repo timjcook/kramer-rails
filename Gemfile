@@ -49,11 +49,5 @@ gem 'autoprefixer-rails'
 gem 'simple_form'
 gem 'country_select'
 
-gem 'devise'
-gem 'omniauth'
-gem 'omniauth-twitter'
-gem 'omniauth-facebook'
-gem 'omniauth-linkedin'
-
 gem 'haml'
 gem 'haml-rails'
