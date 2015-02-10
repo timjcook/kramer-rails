@@ -1,0 +1,14 @@
+%h1 User
+%table.table
+  %thead
+    %tr
+      %th First Name
+      %th Last Name
+      %th Email
+  %tbody
+    - @users.each do |user|
+      %tr
+        %th= user.first_name
+        %th= user.last_name
+        %th= user.email
+%a.btn.btn-primary{:href => new_user_path} Create a new user
